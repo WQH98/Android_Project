@@ -41,11 +41,6 @@ public class MainActivity extends AppCompatActivity {
                 et.setText("我也是被按下后的");
             }
         });
-
-
-        // Example of a call to a native method
-//        TextView tv = binding.sampleText;
-//        tv.setText(stringFromJNI());
     }
 
     /**
