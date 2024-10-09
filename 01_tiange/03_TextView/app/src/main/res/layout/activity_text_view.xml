@@ -34,8 +34,7 @@
         android:textSize="32sp"
         android:layout_marginTop="10dp"
         android:drawableRight="@drawable/icon_arrow_off"
-        android:drawablePadding="5dp"
-        />
+        android:drawablePadding="5dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -44,8 +43,7 @@
         android:text="@string/tv_test1"
         android:textColor="#000000"
         android:textSize="32sp"
-        android:layout_marginTop="10dp"
-        />
+        android:layout_marginTop="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,8 +52,29 @@
         android:text="@string/tv_test1"
         android:textColor="#000000"
         android:textSize="32sp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="10dp"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_6"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:layout_marginTop="10dp"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_7"
+        android:text="王富贵王富贵王富贵王富贵王富贵王富贵王富贵王富贵王富贵王富贵王富贵王富贵"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:clickable="true"
+        android:layout_marginTop="10dp"/>
 
 </LinearLayout>
